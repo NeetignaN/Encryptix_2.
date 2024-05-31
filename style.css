@@ -37,6 +37,31 @@ nav ul li a:hover {
    color:rgb(91, 90, 173);
    font-size: 1.05rem ; 
 }
+div div a:hover {
+    font-size:1.15rem;
+    color:rgb(91, 90, 173);
+    background-color: aliceblue;
+}
+hr{
+    height: 3px;
+    margin:0px 40px;
+    border: 0.2px rgb(46, 71, 118);
+    background-color: rgb(29, 45, 74);
+}
+div>div>a{
+    text-decoration: none ;
+    color:rgb(255, 255, 255);
+    background-color: rgb(29, 45, 74);
+    font-size: 1.1rem;
+   margin-top: 10px;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    
+}  
+.cv {
+    margin-top: 20px; /* Adjust as needed */
+}
 
 .left {
     font-family: "Love Ya Like A Sister", cursive;
@@ -62,14 +87,21 @@ nav ul li a:hover {
 }
 
 .leftSection {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     margin: 120px 0px 0px 70px;
 }
 
 .purple {
     color: rgb(91, 90, 173);
 }
+.about {
+   
+   font-size:1.2rem;
+   width:20%;
+  text-align:center ;
+}
 
 #element {
     color: rgb(91, 90, 173);
 }
+
