@@ -130,9 +130,30 @@
 
         <section class="contact" id="contact">
             <h2 class="contact-me" id="contact-me">Contact Me</h2>
-            
+            <div class="contact-box">
+
+                <div class="contact-left">
+                    <h3 class="contact-l">Lets's Get In Touch</h2>
+                        <img class="contact-image" src="file.png">
+                        <p>Connect with me: </p>
+                        <div class="social">
+
+
+                        </div>
+                </div>
+
+                <form class="contact-right" action="https://api.web3forms.com/submit" method="POST" >
+                    <h5 class="contact-r">Contact Me</h5>
+                    <input type="hidden" name="access_key" value="e779368d-754a-4c3a-bbcd-c74af4bedb5c">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input type="tel" name="phone" id="phone" placeholder="Phone">
+                    <textarea name="message" id="message" placeholder="Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </section>
-        
+
 
     </main>
 
@@ -146,6 +167,7 @@
             typeSpeed: 40,
         });
     </script>
+   
 </body>
 
 </html>
