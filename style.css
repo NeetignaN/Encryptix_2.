@@ -83,6 +83,9 @@ div>div>a {
     font-style: normal;
     font-size: 1.7rem;
 }
+.left{
+    font-weight: 500;
+}
 
 .firstSection {
     display: flex;
@@ -340,6 +343,35 @@ button:hover{
     transform: scale(1.03);
     cursor: pointer;
     box-shadow: 0 0 10px  rgb(122, 132, 152);
+}
+.social{
+   margin: 15px 0px 0px 20px;
+}
+.social a{
+   visibility: hidden;
+
+}
+.social img {
+    width: 40px;
+    height:40px;
+    margin: 0;
+    padding: 0;
+    visibility: visible;
+}
+.social img:hover{
+    transform: scale(1.07);
+}
+.social p{
+   font-size: medium;
+}
+.number, .email{
+    display: flex;
+    flex-direction: row;
+    font-size: x-small;
+    margin:0px 5px;
+}
+.number p, .email p{
+    margin-left: 10px;
 }
 
 #element {
